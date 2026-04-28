@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="48be556e-3838-4b71-8fcf-916aa4d65c5b" name="Changes" comment="" />
+    <list default="true" id="48be556e-3838-4b71-8fcf-916aa4d65c5b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ThemeToggle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="41" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Han1s&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Han1s/worthy.git&quot;,
+    &quot;accountId&quot;: &quot;ba500014-5ebe-482d-89f5-ad1ef7e031b2&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
@@ -19,34 +51,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ChatTagsLlmMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ClientConfigCleanupMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyAccountsIdsRefresh&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyMigrateChatHistory-v2&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.DeprecatedChatLlmMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nxf55111/Desktop/Coding/worthy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/nxf55111/Desktop/Coding/worthy/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ChatTagsLlmMigration": "true",
+    "RunOnceActivity.ClientConfigCleanupMigration": "true",
+    "RunOnceActivity.CodyAccountHistoryMigration": "true",
+    "RunOnceActivity.CodyAccountsIdsRefresh": "true",
+    "RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount": "true",
+    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
+    "RunOnceActivity.CodyHistoryLlmMigration": "true",
+    "RunOnceActivity.CodyMigrateChatHistory-v2": "true",
+    "RunOnceActivity.CodyProjectSettingsMigration": "true",
+    "RunOnceActivity.DeprecatedChatLlmMigration": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/honza/WebstormProjects/worthy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/honza/WebstormProjects/worthy/node_modules/prettier",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.ColorSchemeFont",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/honza/WebstormProjects/worthy/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="npm.dev">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="worthy" />
       <option name="ENV_FILES" value="" />
@@ -72,12 +114,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-PY-261.22158.340" />
-        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
       </set>
     </attachedChunks>
   </component>
@@ -89,6 +142,16 @@
       <option name="presentableId" value="Default" />
       <updated>1777041744096</updated>
       <workItem from="1777041745269" duration="1053000" />
+      <workItem from="1777213435937" duration="515000" />
+      <workItem from="1777213959273" duration="400000" />
+      <workItem from="1777214594091" duration="45000" />
+      <workItem from="1777214769338" duration="307000" />
+      <workItem from="1777218750023" duration="76000" />
+      <workItem from="1777218838283" duration="279000" />
+      <workItem from="1777219696788" duration="104000" />
+      <workItem from="1777219807263" duration="208000" />
+      <workItem from="1777220027273" duration="77000" />
+      <workItem from="1777399484955" duration="441000" />
     </task>
     <servers />
   </component>

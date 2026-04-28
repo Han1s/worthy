@@ -9,16 +9,10 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as DemoBetterAuthRouteImport } from './routes/demo/better-auth'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -37,47 +31,36 @@ const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/demo/better-auth': typeof DemoBetterAuthRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/demo/better-auth': typeof DemoBetterAuthRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/demo/better-auth': typeof DemoBetterAuthRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/demo/better-auth' | '/api/auth/$'
+  fullPaths: '/' | '/demo/better-auth' | '/api/auth/$'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/demo/better-auth' | '/api/auth/$'
-  id: '__root__' | '/' | '/about' | '/demo/better-auth' | '/api/auth/$'
+  to: '/' | '/demo/better-auth' | '/api/auth/$'
+  id: '__root__' | '/' | '/demo/better-auth' | '/api/auth/$'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
   DemoBetterAuthRoute: typeof DemoBetterAuthRoute
   ApiAuthSplatRoute: typeof ApiAuthSplatRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
@@ -104,7 +87,6 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
   DemoBetterAuthRoute: DemoBetterAuthRoute,
   ApiAuthSplatRoute: ApiAuthSplatRoute,
 }
