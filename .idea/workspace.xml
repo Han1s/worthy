@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48be556e-3838-4b71-8fcf-916aa4d65c5b" name="Changes" comment="add mantine ui">
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/theme.ts" afterDir="false" />
+    <list default="true" id="48be556e-3838-4b71-8fcf-916aa4d65c5b" name="Changes" comment="add dark theme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/__root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,7 @@
       <workItem from="1777219696788" duration="104000" />
       <workItem from="1777219807263" duration="208000" />
       <workItem from="1777220027273" duration="77000" />
-      <workItem from="1777399484955" duration="4130000" />
+      <workItem from="1777399484955" duration="5691000" />
     </task>
     <task id="LOCAL-00001" summary="delete bunch of files">
       <option name="closed" value="true" />
@@ -170,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777401220433</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add dark theme">
+      <option name="closed" value="true" />
+      <created>1777492756507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777492756507</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +186,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete bunch of files" />
     <MESSAGE value="add mantine ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mantine ui" />
+    <MESSAGE value="add dark theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dark theme" />
   </component>
 </project>

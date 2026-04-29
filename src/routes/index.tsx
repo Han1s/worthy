@@ -2,10 +2,14 @@ import { createFileRoute } from '@tanstack/react-router'
 import { Button } from '@mantine/core'
 import { createServerFn } from '@tanstack/react-start'
 
-export const Route = createFileRoute('/')({ component: App })
+export const getServerTime = createServerFn().handler(async () => {
+  // This runs only on the server
+  return new Date().toISOString()
+})
 
-const serverLoader = createServerFn({ method: 'GET' }).handler(() => {
-  return { name: 'test' }
+export const Route = createFileRoute('/')({
+  component: App,
+  loader: async () => getServerTime(),
 })
 
 function App() {
