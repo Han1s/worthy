@@ -68,11 +68,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
                 <ColorSchemeScript />
               </Group>
             </AppShell.Header>
-            <AppShell.Navbar p="md">
-              Navbar is collapsed on mobile at sm breakpoint. At that point it
-              is no longer offset by padding in the main element and it takes
-              the full width of the screen when opened.
-            </AppShell.Navbar>
+            <AppShell.Navbar p="md">TODO:</AppShell.Navbar>
             <AppShell.Main>
               {children}
               <TanStackDevtools

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48be556e-3838-4b71-8fcf-916aa4d65c5b" name="Changes" comment="create basic layout">
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/AppTItle.tsx" afterDir="false" />
+    <list default="true" id="48be556e-3838-4b71-8fcf-916aa4d65c5b" name="Changes" comment="abstract app title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/__root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="38" />
+    <option name="cachedIndexableFilesCount" value="39" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -151,7 +151,7 @@
       <workItem from="1777219696788" duration="104000" />
       <workItem from="1777219807263" duration="208000" />
       <workItem from="1777220027273" duration="77000" />
-      <workItem from="1777399484955" duration="6052000" />
+      <workItem from="1777399484955" duration="7015000" />
     </task>
     <task id="LOCAL-00001" summary="delete bunch of files">
       <option name="closed" value="true" />
@@ -185,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777494331335</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="abstract app title">
+      <option name="closed" value="true" />
+      <created>1777494678090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777494678090</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +204,7 @@
     <MESSAGE value="add mantine ui" />
     <MESSAGE value="add dark theme" />
     <MESSAGE value="create basic layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="create basic layout" />
+    <MESSAGE value="abstract app title" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract app title" />
   </component>
 </project>
